@@ -1,0 +1,42 @@
+
+.Containeralg{
+    display:flex;
+    justify-content:justify;
+
+
+
+}
+.cortexto{
+    width:50%;
+    color:black;
+    justify-content:justify;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    top: 420px;
+    right: 870px;
+    width: 340px;
+    height: 227px;
+    background-color: orange;
+    margin: 0 auto;
+    
+
+}
+
+Styles.inputtexto{
+
+}
+
+Styles.labelRadio{
+
+}
+
+Styles.labelRadio{
+
+    
+}

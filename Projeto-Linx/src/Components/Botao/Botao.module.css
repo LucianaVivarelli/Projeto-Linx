@@ -1,0 +1,13 @@
+button{
+    background-color: #ea9707;
+    color: rgba(248, 245, 245, 0.952);
+    justify-content: space-around;
+    display:inline;
+    grid-template-columns: 1rf 1rf;
+    column-gap:10px;
+    margin: 0 15px;
+    border-radius: 5px;
+    border-style: none;
+    padding:10px;
+    cursor:pointer;
+}
