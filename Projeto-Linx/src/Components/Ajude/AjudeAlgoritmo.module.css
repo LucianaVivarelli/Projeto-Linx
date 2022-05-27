@@ -1,42 +1,52 @@
-
-.Containeralg{
-    display:flex;
-    justify-content:justify;
-
-
-
-}
 .cortexto{
-    width:50%;
-    color:black;
-    justify-content:justify;
+width:70%;
+color: black;
+text-align: justify;
+font-size: 19px;
+
 }
+.cortexto2{
+    width:70%;
+    color: black;
+    text-align: justify;
+    font-size: 19px;
+    
+    }
+.tituloalg{
+    display:flex;
+    justify-items: auto;
+    
+}
+
 
 main{
+    padding-top:3%;
+    width:1200px;
+    margin: 0 auto;
+    height: 400px;
     display:flex;
     justify-content: center;
 }
 
+input{
+    background-color:hwb(299 0% 60% / 0.424);
+    margin:8%;
+    width:100%;
+    padding-top:20px;
+}
 form{
     top: 420px;
     right: 870px;
     width: 340px;
-    height: 227px;
+    height: 400px;
+    display:column;
+    align-items: center;
+    justify-content: column;
     background-color: orange;
     margin: 0 auto;
-    
-
-}
-
-Styles.inputtexto{
-
-}
-
-Styles.labelRadio{
-
-}
-
-Styles.labelRadio{
+    padding-right:52px;
 
     
+
 }
+

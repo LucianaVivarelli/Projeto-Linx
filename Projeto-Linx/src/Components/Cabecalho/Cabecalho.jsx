@@ -13,8 +13,8 @@ const Cabecalho = () => {
           Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite
         </p>
        </section>
-            <nav className={Styles.navbutton}>
-                <ul>
+            <nav >
+                <ul >
                     <li>
                       <Botao texto='Conheça a Linx' />
                     </li>
