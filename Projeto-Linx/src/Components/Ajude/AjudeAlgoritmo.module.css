@@ -1,12 +1,12 @@
 .cortexto{
-width:70%;
+width:100%;
 color: black;
 text-align: justify;
 font-size: 19px;
 
 }
 .cortexto2{
-    width:70%;
+    width:100%;
     color: black;
     text-align: justify;
     font-size: 19px;
@@ -20,19 +20,25 @@ font-size: 19px;
 
 
 main{
+    Top:0%;
     padding-top:3%;
-    width:1200px;
-    margin: 0 auto;
+    width:950px;
     height: 400px;
     display:flex;
-    justify-content: center;
+    justify-content:space-between;
+    
+    margin: 0 auto;
 }
-
+label{
+    display:flex
+}
 input{
-    background-color:hwb(299 0% 60% / 0.424);
+    background-color: rgba(255, 153, 0, 0.953);
     margin:8%;
     width:100%;
     padding-top:20px;
+    padding-left:90px;
+    
 }
 form{
     top: 420px;
@@ -40,11 +46,10 @@ form{
     width: 340px;
     height: 400px;
     display:column;
-    align-items: center;
     justify-content: column;
-    background-color: orange;
-    margin: 0 auto;
-    padding-right:52px;
+    
+    margin-left:70px;
+   
 
     
 
