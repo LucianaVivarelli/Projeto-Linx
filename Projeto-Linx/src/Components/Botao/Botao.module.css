@@ -1,18 +1,43 @@
-button{
-    width:15%;
-    font-size:20px;
+.btn{
+    top: 230px;
+    left: 771px;
+    width: 190px;
+    height: 47px;
+    font-size:18px;
     background-color: #ea9707;
     color: rgba(248, 245, 245, 0.952);
-    justify-content: space-around;
-    display:inline;
-    grid-template-columns: 1rf 1rf;
+    padding: 9px 10px 9px 10px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
+    cursor:pointer;
+} 
+.btnSubmit{
+    top: 670px;
+    left: 870px;
+    width: 340px;
+    height: 39px;
+    font-size:18px;
+    background-color: #ea9707;
+    color: rgba(248, 245, 245, 0.952);
+    margin: 0 17px;
+    border-radius: 5px;
+    border-style: none;
+    
+    box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
+    cursor:pointer;
+   
+}
+.btnProdutos{
+    width:395px;
+    font-size:18px;
+    background-color: #ea9707;
+    color: rgba(248, 245, 245, 0.952);
     column-gap:10px;
     margin: 0 25px;
     border-radius: 5px;
     border-style: none;
     padding:15px;
-    box-shadow: 10px 5px 5px rgb(118, 113, 113);
+    box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
     cursor:pointer;
-    padding-left: 15px;
-    padding-right: 15px;
 }

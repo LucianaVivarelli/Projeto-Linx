@@ -1,22 +1,24 @@
 import React from 'react'
-import Styles from './Compartilhe.module.css'
-import Botao from '../Botao/Botao'
-import Divisor from '../Divisor/Divisor'
+import {Botao, BotaoSubmit} from '../Botao/Botao'
+import {Divisor} from '../Divisor/Divisor'
+import styles from'./Compartilhe.module.css'
 
-const Compartilhe = () => {
+ export const Compartilhe = () => {
   return (
     <>
+        <Divisor Styles="" texto={"Compartilhe a novidade"} />
+        <p className={styles.paragrafoCompartilhe}>
+          Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+      <section className={styles.containerCompartilhe}>
 
-<Divisor Styles="" texto={"Compartilhe a novidade"} />
-<p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
-
-    Nome do seu amigo:
-    <input type="text" name="name" />
-    E-mail dele:
-    <input type="text" name="name" />
-    <Botao  texto='Compartilhe' />
+        
+          <label className={styles.paragrafolabel}>Nome do seu amigo:</label>
+        <input className={styles.paragrafoInput} type="text" name="name" />
+          <label className={styles.paragrafolabel}> E-mail dele:</label>
+        <input type="text" name="name" />
+        </section>
+        <BotaoSubmit texto='Enviar agora' />
     </>
   )
 }
 
-export default Compartilhe
