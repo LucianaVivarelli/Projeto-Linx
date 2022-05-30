@@ -17,7 +17,7 @@ import {Botao, BotaoSubmit,BotaoProdutos} from '../Botao/Botao'
             <h4></h4>
             <p></p>
 
-            <div classname={Styles.BtnCompra}>
+            <div className={Styles.BtnCompra}>
             <BotaoProdutos texto=" Comprar" />
             </div>
             </section>

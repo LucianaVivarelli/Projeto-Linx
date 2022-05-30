@@ -1,7 +1,12 @@
 .rContainer{
-    color:black;
-    text-align:center;
-    
+    top: 0%;
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    background: #670455a9 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    clip-path: polygon(100% 0%, 0% 90%, 100% 100%, 100% 0%);
+    opacity: 1; 
 }
 .paragrafo{
     color:black;

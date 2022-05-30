@@ -9,8 +9,11 @@
     padding: 9px 10px 9px 10px;
     border-radius: 5px;
     border-style: none;
+    border-color: #70707012;
     box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
     cursor:pointer;
+    font-weight: 700;
+    transition:filter 0.2s;
 } 
 .btnSubmit{
     top: 670px;
@@ -23,9 +26,11 @@
     margin: 0 17px;
     border-radius: 5px;
     border-style: none;
-    
+    border-color: #70707012;
     box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
     cursor:pointer;
+    font-weight: 700;
+    transition:filter 0.2s;
    
 }
 .btnProdutos{
@@ -40,4 +45,24 @@
     padding:15px;
     box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
     cursor:pointer;
+    border: 1px solid #707070;
+    border-color: #70707012;
+    border-radius: 4px;
+    opacity: 1;
+    font-weight: 700;
+    transition:filter 0.2s;
+}
+.btn:hover{
+    filter:opacity(0.9);
+    background-color: orange;
+}
+
+.btnSubmit:hover{
+    filter:opacity(0.9);
+    background-color: orange;
+    
+}
+
+.btnProdutos:hover{
+    filter:opacity(0.9);
 }

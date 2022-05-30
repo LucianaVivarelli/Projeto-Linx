@@ -28,10 +28,10 @@ import styles from './SeusProdutos.module.css'
              <Lista SeusProdutos = {SeusProdutos} />
            </ul> 
 
-      <fieldset className={styles.BtnProdutos}>
+      <section className={styles.BtnProdutos}>
              <BotaoProdutos texto=" Ainda mais produtos aqui!"
              onClick={() => setContador(Contador + 1)} />
-      </fieldset> 
+      </section> 
 
       </section>
 

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Styles from "./AjudeAlgoritmo.module.css";
 import {Botao, BotaoSubmit} from "../Botao/Botao";
 
  export const Ajude = () => {
+   const [value, setValue] = useState("inicio")
+console.log(value)
   return (
     <main claasName={Styles.quadrado}>
       <section className={Styles.Containeralg}>
@@ -33,17 +35,14 @@ import {Botao, BotaoSubmit} from "../Botao/Botao";
 
       <div className={Styles.formcontainer}>
         <form>
-          <label className={Styles.labelcontainer}> Seu nome:</label>
-            
-            <input className={Styles.inputtexto} type="text" />
-          
-
+          <label>Seu nome:</label>
+            <input className={Styles.inputtexto} type="text" onChange={(e) => setValue(e.target.value)} />
           <label>E-mail:</label>
-            <input className={Styles.inputtexto} type="email" />
+            <input className={Styles.inputtexto} type="text"onChange={(e) => setValue(e.target.value)}/>
           
 
           <label>CPF:</label>
-            <input className={Styles.inputtexto} type="text" />
+            <input className={Styles.inputtexto} type="text" onChange={(e) => setValue(e.target.value)}/>
 
           <section>
             <label className={Styles.labelRadio}>
