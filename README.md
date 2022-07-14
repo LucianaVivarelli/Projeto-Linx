@@ -1,4 +1,4 @@
-<h1 align="center"> Página linux em progresso </h1>
+<h1 align="center"> Página linux em Construção </h1>
 
 
 
