@@ -1,24 +1,23 @@
 .Divisor {
-    margin-top:80px;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font:1.2 rem Helvetica NeueBold;
-    color:rgba(154, 89, 142, 0.728)
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font: 1.2 rem Helvetica NeueBold;
+  color: rgba(154, 89, 142, 0.728);
 }
 
 .Divisor::after,
 .Divisor::before {
-    content:"";
-    border:1px solid #9a979793;
-    flex: 1;
-
+  content: "";
+  border: 1px solid #9a979793;
+  flex: 1;
 }
 
 .Divisor:not(:empty)::before {
-    margin-right: 0.75em;
+  margin-right: 0.75em;
 }
 .Divisor:not(:empty)::after {
-    margin-left: 0.75em;
+  margin-left: 0.75em;
 }

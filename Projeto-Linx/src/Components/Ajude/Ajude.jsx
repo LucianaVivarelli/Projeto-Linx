@@ -12,6 +12,7 @@ console.log(value)
           {" "}
           Ajude o Algoritmo a ser mais certeiro
         </h2>
+        <details className={Styles.banana}>
         <p className={Styles.cortexto}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris
@@ -31,6 +32,7 @@ console.log(value)
           magna ac luctus commodo, odio ante suscipit libero, at mattis augue
           est vel metus.
         </p>
+        </details>
       </section>
 
       <div className={Styles.formcontainer}>

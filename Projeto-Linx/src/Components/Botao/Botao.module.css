@@ -1,68 +1,67 @@
-.btn{
-    top: 230px;
-    left: 771px;
-    width: 190px;
-    height: 47px;
-    font-size:18px;
-    background-color: #ea9707;
-    color: rgba(248, 245, 245, 0.952);
-    padding: 9px 10px 9px 10px;
-    border-radius: 5px;
-    border-style: none;
-    border-color: #70707012;
-    box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
-    cursor:pointer;
-    font-weight: 700;
-    transition:filter 0.2s;
-} 
-.btnSubmit{
-    top: 670px;
-    left: 870px;
-    width: 340px;
-    height: 39px;
-    font-size:18px;
-    background-color: #ea9707;
-    color: rgba(248, 245, 245, 0.952);
-    margin: 0 17px;
-    border-radius: 5px;
-    border-style: none;
-    border-color: #70707012;
-    box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
-    cursor:pointer;
-    font-weight: 700;
-    transition:filter 0.2s;
-   
+.btn {
+  top: 230px;
+  left: 771px;
+  width: 190px;
+  height: 47px;
+  font-size: 18px;
+  background-color: #ea9707;
+  color: rgba(248, 245, 245, 0.952);
+  padding: 9px 10px 9px 10px;
+  border-radius: 5px;
+  border-style: none;
+  border-color: #70707012;
+  box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
+  cursor: pointer;
+  font-weight: 700;
+  transition: filter 0.2s;
 }
-.btnProdutos{
-    width:395px;
-    font-size:18px;
-    background-color: #ea9707;
-    color: rgba(248, 245, 245, 0.952);
-    column-gap:10px;
-    margin: 0 25px;
-    border-radius: 5px;
-    border-style: none;
-    padding:15px;
-    box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
-    cursor:pointer;
-    border: 1px solid #707070;
-    border-color: #70707012;
-    border-radius: 4px;
-    opacity: 1;
-    font-weight: 700;
-    transition:filter 0.2s;
+.btnSubmit {
+  top: 670px;
+  left: 870px;
+  width: 340px;
+  height: 39px;
+  font-size: 18px;
+  background-color: #ea9707;
+  color: rgba(248, 245, 245, 0.952);
+  margin: 0 17px;
+  border-radius: 5px;
+  border-style: none;
+  border-color: #70707012;
+  box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
+  cursor: pointer;
+  font-weight: 700;
+  transition: filter 0.2s;
+  overflow: hidden;
 }
-.btn:hover{
-    filter:opacity(0.9);
-    background-color: orange;
+.btnProdutos {
+  width: 255px;
+  font-size: 18px;
+  background-color: #ea9707;
+  color: rgba(248, 245, 245, 0.952);
+  column-gap: 10px;
+  margin: 6 68px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 15px;
+  box-shadow: 10px 5px 5px rgba(228, 156, 67, 0.453);
+  cursor: pointer;
+  border: 1px solid #707070;
+  border-color: #70707012;
+  border-radius: 4px;
+  opacity: 1;
+  font-weight: 700;
+  transition: filter 0.2s;
 }
-
-.btnSubmit:hover{
-    filter:opacity(0.9);
-    background-color: orange;
-    
+.btn:hover {
+  filter: opacity(0.9);
+  background-color: orange;
 }
 
-.btnProdutos:hover{
-    filter:opacity(0.9);
+.btnSubmit:hover {
+  filter: opacity(0.9);
+  background-color: orange;
+}
+
+.btnProdutos:hover {
+  filter: opacity(0.9);
 }

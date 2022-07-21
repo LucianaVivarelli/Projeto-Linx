@@ -1,40 +1,36 @@
-import React, { useState, useEffect} from 'react'
-import {Botao, BotaoSubmit,BotaoProdutos} from '../Botao/Botao'
-import {Lista} from "./Lista"
-import {Divisor} from '../Divisor/Divisor'
-import styles from './SeusProdutos.module.css'
+import React, { useState, useEffect } from "react";
+import { Botao, BotaoSubmit, BotaoProdutos } from "../Botao/Botao";
+import { Lista } from "./Lista";
+import { Divisor } from "../Divisor/Divisor";
+import styles from "./SeusProdutos.module.css";
 
-  export const SeusProdutos = () => {
-    const [SeusProdutos, setSeusProdutos] = useState([]);
-    const [Contador, setContador] = useState([]);
-    useEffect (() => {
+export const SeusProdutos = () => {
+  const [seusProdutos, setSeusProdutos] = useState([]);
+  const [contador, setContador] = useState(1);
 
-          fetch(`https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=${Contador}`)
-            .then((res) => res.json())
-            .then((res) => setSeusProdutos([res]))
-            .catch((err) => res.status(400).json(err));
-          
-          
+  const url = `https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=${contador}`;
 
-    },[Contador]
-    );
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((res) => setSeusProdutos([...seusProdutos, ...res.products]));
+  }, [contador]);
+
   return (
-    <div className={styles.containerGlobalProdutos}>
-      <section className={styles.Productos}>
+    <div className={styles.containerSuaSelecao}>
+      <section id="produtosLista" className={styles.secaoPdts}>
+        <Divisor texto={"Sua seleção especial"} />
+        <ul className={styles.containerPdtos}>
+          <Lista seusProdutos={seusProdutos} />
+        </ul>
 
-           <Divisor Styles="" texto = {"Sua seleção especial"} />  
-
-           <ul>
-             <Lista SeusProdutos = {SeusProdutos} />
-           </ul> 
-
-      <section className={styles.BtnProdutos}>
-             <BotaoProdutos texto=" Ainda mais produtos aqui!"
-             onClick={() => setContador(Contador + 1)} />
-      </section> 
-
+        <section className={styles.BtnMaisProdutos}>
+          <BotaoProdutos
+            texto=" Ainda mais produtos aqui!"
+            onClick={() => setContador(contador + 1)}
+          />
+        </section>
       </section>
-
     </div>
-              )
-  }
+  );
+};

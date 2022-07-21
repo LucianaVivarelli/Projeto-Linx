@@ -1,15 +1,23 @@
 .rContainer{
-    top: 0%;
-    width: 100%;
-    height: 40vh;
-    margin: 0 auto;
     background: #670455a9 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    clip-path: polygon(100% 0%, 0% 90%, 100% 100%, 100% 0%);
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%); 
     opacity: 1; 
-}
-.paragrafo{
+    height: 25vh;
+    margin-top: 5rem;
+   
     color:black;
     text-transform: 700;
+   
+}
+.txtr {
+    margin: 0 auto;
+    padding-top: 9rem;
+    color: #ffffff;
+    font-family: Helvetica NeueRegular;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
     
 }

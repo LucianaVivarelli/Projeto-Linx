@@ -43,14 +43,17 @@
 
 
 main{
-    Top:0%;
-    padding-top:3%;
-    width:950px;
-    height: 400px;
-    display:flex;
-    justify-content:space-between;
-    
-    margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap:60px;
+   
+   
+   
+   
+
+   
+   
 }
 
 /* input{
@@ -71,6 +74,18 @@ form{
     
    
 }
+.banana {
+    transition: height 0.5s ease;
+    overflow: hidden;
+  }
+  
+  .banana:not([open]) {
+    height: 2em;
+  }
+  
+  .banana[open] {
+    height: 20em;
+  }
 .inputtexto{
     
     top: 441px;
@@ -114,7 +129,7 @@ label{
 
 
 .btnSubmit{
-    width: 800px;
+    
     display:flex;
 }
 
