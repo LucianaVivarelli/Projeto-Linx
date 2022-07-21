@@ -7,12 +7,18 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 <hr />
+
+![image](https://user-images.githubusercontent.com/96242187/180253458-33bdef48-5381-4ee2-bfbd-c7e691aea883.png)
+
+
 <div align='center'>
 <h2> Linguagens Ultilizadas:</h2>
 <br>
  <img align="center" alt="Lu-React" height="70" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+ <hr />
  <br>
 </div>
+
 
 <div align="center">
 
@@ -36,8 +42,16 @@
 <li> Ajustes Js</li>
 </ul>
 <hr />
+Imagem da parte do site que ainda precisa de estilização:
+
+![image](https://user-images.githubusercontent.com/96242187/180253670-b8a23401-5426-4cb4-8871-c1bec56f374c.png)
+
+<hr />
+
+
 <h2>Status:</h2>
 <p>🕗80%</p>
+<p> Entrega final: 25/06</p>
 
 <hr />
 <br>
