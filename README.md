@@ -51,7 +51,6 @@ Imagem da parte do site que ainda precisa de estilização:
 
 <h2>Status:</h2>
 <p>🕗80%</p>
-<p> Entrega final: 25/06</p>
 
 <hr />
 <br>
